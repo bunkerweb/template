@@ -16,12 +16,12 @@ You can separate your plugin into multiple files, as long as the root is the fun
 4. Upload the plugin file from `dist/bundle.js` to Github or another file host
 
 > [!NOTE]
-> The Content-Type header does __not__ have to be `text/javascript` for Bunker to import it to allow for compatibility with raw.githubusercontent.com.
+> The Content-Type header does __not__ have to be `text/javascript` for Bunker to import it. This allows for compatibility with raw.githubusercontent.com and other hosts that would otherwise serve it as `text/plain`.
 
 5. Share the raw file data url with users for them to add inside their Bunker application.
 
 Please note that any external plugins that users add will be marked as **Unverified**, and are given a warning that they may be malicious. If you would like this to be removed and added to our verified plugin registry, please make a pull request in our plugin registry. We will review it, check for malicious code, and if it passes, approve it. 
-If you experience problems with creating plugins, please join our [Discord server](https://discord.gg/Yq32gmhS2u) and we'd be glad to help you. 
+If you experience problems with creating plugins, or an issue with this template, please join our [Discord server](https://discord.gg/Yq32gmhS2u) or open an issue and we'd be glad to help you. 
 
 
 Happy developing!
